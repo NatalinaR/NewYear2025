@@ -3,15 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
-    font-family: "Balsamiq Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-/*     font-family: "DynaPuff", system-ui;
+ 
+    font-family: "DynaPuff", system-ui;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100; */
+    "wdth" 100;
 user-select: none;
 }
 
@@ -113,6 +111,9 @@ background: linear-gradient(90deg, rgba(245,41,41,1) 0%, rgba(217,0,36,1) 51%, r
   }
 
   .heading {
+         font-family: "Balsamiq Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
     position: absolute;
     margin-top: 20px;
     top: 0;
