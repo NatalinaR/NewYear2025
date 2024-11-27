@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+    <title>Advent Calendar 2024</title>
+
+</head>
+<body>
+
+    <section id="modal">
+        <div class="wrapper">
+          <div class="wrappercontent">
+            <div class="close"></div>
+            <div class="box">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <div id="keywordModal" class="modal">
+        <h2>Enter Keyword <span id="boxNumber"></span></h2>
+        <input type="text" id="keywordInput" placeholder="Type keyword here">
+        <button class = "checkAnsw" type="button">Check Keyword</button>
+        <p id="feedbackMessage"></p>
+      </div>
+    
+
+    <div class="heading">ADVENT CALENDAR</div>
+    
+  
+    <div class="calendar">
+        <div class="day">31</div>
+        <div class="day">22</div>
+        <div class="day">13</div>
+        <div class="day">4</div>
+        <div class="day">15</div>
+        <div class="day">26</div>
+        <div class="day">7</div>
+        <div class="day">18</div>
+        <div class="day">29</div>
+        <div class="day">10</div>
+        <div class="day">21</div>
+        <div class="day">12</div>
+        <div class="day">23</div>
+        <div class="day">14</div>
+        <div class="day">5</div>
+        <div class="day">16</div>
+        <div class="day">27</div>
+        <div class="day">8</div>
+        <div class="day">19</div>
+        <div class="day">20</div>
+        <div class="day">11</div>
+        <div class="day">2</div>
+        <div class="day">3</div>
+        <div class="day">24</div>
+        <div class="day">25</div>
+        <div class="day">6</div>
+        <div class="day">17</div>
+        <div class="day">28</div>
+        <div class="day">9</div>
+        <div class="day">30</div>
+        <div class="day">1</div>
+    </div>
+
+    <audio autoplay loop>
+        <source src="pics/music.mp3" type="audio/mpeg" />
+    </audio>
+    
+    <script src="logic.js"></script>
+        
+</body>
+</html>
