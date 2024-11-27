@@ -17,7 +17,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background: url(pics/back.jpg);
+    background: url(back.jpg);
   }
 
   .calendar {
@@ -126,7 +126,7 @@ background: linear-gradient(90deg, rgba(245,41,41,1) 0%, rgba(217,0,36,1) 51%, r
         height: 100%;
         width: 100%;
         /* background: rgba(180, 119, 251, 0.622); */
-        background: url(pics/xmastree.jpg);
+        background: url(xmastree.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: center center;
